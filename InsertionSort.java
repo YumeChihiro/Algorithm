@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-/* Dựa trên so sánh in-place. Một danh sách con luôn được duy trì và dưới dạng đã qua sắp xếp (phần tử đầu của mảng con là array[0].
-* Sắp xếp chèn là thêm một phần tử vào danh sách con đã sắp xếp (so sánh array[1] và array[1])
+/* Dựa trên so sánh in-place. Một danh sách con luôn được duy trì và dưới dạng đã qua sắp xếp (phần tử đầu của mảng con là array[0]).
+* Sắp xếp chèn là thêm một phần tử vào danh sách con đã sắp xếp (so sánh array[0] và array[1])
 * Không thích hợp với các tập dữ dữ liệu lớn khi độ phức tạp trường hợp xấu nhất và trường hợp trung bình là Ο(n2) với n là số phần tử. */
 
 /* Based on in-place comparison. A sublist is always maintained in sorted form (the first element of the subarray is array[0].
